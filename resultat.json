@@ -1,0 +1,77 @@
+{
+    "balance": 1000.0,
+    "prix_entree": 100.0,
+    "prix_catastrophique": 20.0,
+    "drop_percent": 15.0,
+    "difference_percent": 80.0,
+    "nombre_total_iterations": 11,
+    "montant_par_iteration": 90.9090909090909,
+    "iterations": [
+        {
+            "iteration": 1,
+            "prix": 100.0,
+            "montant": 90.9090909090909,
+            "quantite": 0.909091
+        },
+        {
+            "iteration": 2,
+            "prix": 85.0,
+            "montant": 90.9090909090909,
+            "quantite": 1.069519
+        },
+        {
+            "iteration": 3,
+            "prix": 72.25,
+            "montant": 90.9090909090909,
+            "quantite": 1.258257
+        },
+        {
+            "iteration": 4,
+            "prix": 61.4125,
+            "montant": 90.9090909090909,
+            "quantite": 1.480303
+        },
+        {
+            "iteration": 5,
+            "prix": 52.200625,
+            "montant": 90.9090909090909,
+            "quantite": 1.741533
+        },
+        {
+            "iteration": 6,
+            "prix": 44.37053125,
+            "montant": 90.9090909090909,
+            "quantite": 2.048862
+        },
+        {
+            "iteration": 7,
+            "prix": 37.7149515625,
+            "montant": 90.9090909090909,
+            "quantite": 2.410426
+        },
+        {
+            "iteration": 8,
+            "prix": 32.057708828124994,
+            "montant": 90.9090909090909,
+            "quantite": 2.835795
+        },
+        {
+            "iteration": 9,
+            "prix": 27.249052503906245,
+            "montant": 90.9090909090909,
+            "quantite": 3.336229
+        },
+        {
+            "iteration": 10,
+            "prix": 23.16169462832031,
+            "montant": 90.9090909090909,
+            "quantite": 3.924976
+        },
+        {
+            "iteration": 11,
+            "prix": 19.68744043407226,
+            "montant": 90.9090909090909,
+            "quantite": 4.617619
+        }
+    ]
+}
