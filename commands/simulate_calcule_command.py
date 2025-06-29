@@ -1,11 +1,19 @@
-# commands/simulate_command.py
-
 import typer
 from scripts import simulate_calcule
 
 app = typer.Typer()
 
-@app.command()
+@app.command(           
+    help=(
+        "💹 Simule une stratégie de DCA (Dollar Cost Averaging).\n\n"
+        "Cette commande calcule le nombre d'itérations possibles entre un prix d'entrée "
+        "et un prix catastrophique en appliquant un pourcentage de baisse à chaque étape. "
+        "Elle répartit également le capital alloué (balance) sur ces itérations et peut "
+        "exporter les résultats au format JSON.\n\n"
+        "💾 Exemple :\n"
+        "python cli.py simulate run --balance 1000 --prix-entree 40 --prix-catastrophique 4 --drop-percent 50 --export-file resultat.json"
+    )
+)
 def run(
     balance: float = typer.Option(..., help="Le montant total disponible"),
     prix_entree: float = typer.Option(..., help="Le prix d'entrée initial"),
